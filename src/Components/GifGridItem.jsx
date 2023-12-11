@@ -1,5 +1,5 @@
-import React from 'react'
 
+// eslint-disable-next-line react/prop-types
 export const GifGridItem = ({title,url}) => {
     console.log(title,url)
   

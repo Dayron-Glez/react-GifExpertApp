@@ -1,7 +1,7 @@
-import React from 'react'
 import { useFetchGifs } from '../hooks/useFetchGifs'
 import { GifGridItem } from './GifGridItem';
 
+// eslint-disable-next-line react/prop-types
 export const GifGrid = ({ category }) => {
 
   const {data:images,loading} = useFetchGifs( category );
